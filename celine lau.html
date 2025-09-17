@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Websitez</title>
+  <link rel="icon" href="celine.jpg" type="image/jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #ffff00; 
+      color: black;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: black;
+      padding: 15px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    .navbar a:hover {
+      color: #ffd700; 
+    }
+
+  
+    h1 {
+      font-size: 60px;
+      margin-top: 40px;
+      animation: zoomIn 2s ease-in-out;
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.5); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+   
+    img {
+      width: 400px;
+      margin-top: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.4); 
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.05); 
+    }
+
+
+    p {
+      font-size: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+ 
+  <h1>Welcome to My Website</h1>
+  <p>我是 Celine Lau Chi 白</p>
+  <img src="celine.jpg" alt="celine">
+</body>
+</html>
